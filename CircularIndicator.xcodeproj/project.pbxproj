@@ -11,6 +11,8 @@
 		5CBE0FB5261190FF0072BFA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE0FB4261190FF0072BFA7 /* ContentView.swift */; };
 		5CBE0FB7261191010072BFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE0FB6261191010072BFA7 /* Assets.xcassets */; };
 		5CBE0FBA261191010072BFA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBE0FB9261191010072BFA7 /* Preview Assets.xcassets */; };
+		5CBE0FC3261191270072BFA7 /* CircularIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE0FC2261191270072BFA7 /* CircularIndicatorShape.swift */; };
+		5CBE0FC6261191FD0072BFA7 /* CircularIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE0FC5261191FD0072BFA7 /* CircularIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5CBE0FB6261191010072BFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CBE0FB9261191010072BFA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CBE0FBB261191010072BFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBE0FC2261191270072BFA7 /* CircularIndicatorShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularIndicatorShape.swift; sourceTree = "<group>"; };
+		5CBE0FC5261191FD0072BFA7 /* CircularIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				5CBE0FB2261190FF0072BFA7 /* CircularIndicatorApp.swift */,
 				5CBE0FB4261190FF0072BFA7 /* ContentView.swift */,
+				5CBE0FC2261191270072BFA7 /* CircularIndicatorShape.swift */,
+				5CBE0FC5261191FD0072BFA7 /* CircularIndicatorView.swift */,
 				5CBE0FB6261191010072BFA7 /* Assets.xcassets */,
 				5CBE0FBB261191010072BFA7 /* Info.plist */,
 				5CBE0FB8261191010072BFA7 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBE0FC3261191270072BFA7 /* CircularIndicatorShape.swift in Sources */,
 				5CBE0FB5261190FF0072BFA7 /* ContentView.swift in Sources */,
 				5CBE0FB3261190FF0072BFA7 /* CircularIndicatorApp.swift in Sources */,
+				5CBE0FC6261191FD0072BFA7 /* CircularIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var amount: CGFloat = 90
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .padding()
+
+            CircularIndicatorView(amount: amount)
+
+            HStack {
+                Button(action: {
+                    if amount > 0 {
+                        amount -= 10
+                    }
+                }, label: {
+                    Text("Decrease")
+                })
+                Button(action: {
+                    if amount < 100 {
+                        amount += 10
+                    }
+                }, label: {
+                    Text("Increase")
+                })
+            }
+        }
     }
 }
 
